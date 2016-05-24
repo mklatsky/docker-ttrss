@@ -38,6 +38,7 @@ setup_ttrss()
     git clone https://github.com/sepich/tt-rss-mobilize.git ${TTRSS_PATH}/plugins/mobilize
     git clone https://github.com/hrk/tt-rss-newsplus-plugin.git ${TTRSS_PATH}/plugins/api_newsplus
     git clone https://github.com/levito/tt-rss-feedly-theme.git ${TTRSS_PATH}/themes/feedly-git
+    git clone https://github.com/dasmurphy/tinytinyrss-fever-plugin.git ${TTRSS_PATH}/plugins/fever
 
     # Add initial config.
     cp ${TTRSS_PATH}/config.php-dist ${TTRSS_PATH}/config.php
